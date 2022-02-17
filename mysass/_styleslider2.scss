@@ -1,0 +1,106 @@
+.slideshow{
+    padding: 4rem 0;
+    background-color: #111118; 
+    position: relative;
+    margin-top: 100px;
+    .mySlides{
+        display:none;
+    //     transition: all 750ms ease;
+    //     left: 0;
+    }
+    h1, h6{
+     font-weight:normal;
+    }
+    .slide1{
+        flex-basis: 50%;
+        background-image: url(../images/pic/room_1_n_1-1024x683.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .room-info{
+      flex-basis: 50%;
+      background-color:#171720;
+      color:white;
+      padding: 2rem;
+      a{
+        color: map-get($color-pallets , 'success' );
+      }
+    }
+    .slide2{
+        flex-basis: 50%;
+        background-image: url(../images/pic/room-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .slide3{
+        flex-basis: 50%;
+        background-image: url(../images/pic/room-3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .slide4{
+        flex-basis: 50%;
+        background-image: url(../images/pic/room-2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+}
+  
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: black;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .actives, .dot:hover {
+    background-color: #717171;
+  }
+  

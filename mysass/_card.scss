@@ -1,0 +1,259 @@
+.container1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    padding: 1rem 2rem;
+  }
+  
+  .card p {
+    color: white;
+    font-size: xx-large;
+    padding: 1rem 2rem;
+  }
+  
+  .card .card-1 {
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    background-image: url(../images/pic/spa-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: transparent;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .card .card-1:before {
+    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti similique quam amet deleniti praesentium sapiente aperiam, aliquam maxime dolore obcaecati animi debitis laborum voluptatibus illo doloremque, quia, iste laudantium.";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+  }
+  
+  .card .card-1:hover, .card .card-1:focus, .card .card-1:active {
+    color: white;
+  }
+  
+  .card .card-1:hover .item, .card .card-1:focus .item, .card .card-1:active .item {
+    display: none;
+  }
+  
+  .card .card-1:hover:before, .card .card-1:focus:before, .card .card-1:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  
+  .card .card-2 {
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    background-image: url(../images/pic/gym-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: transparent;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .card .card-2:before {
+    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti similique quam amet deleniti praesentium sapiente aperiam, aliquam maxime dolore obcaecati animi debitis laborum voluptatibus illo doloremque, quia, iste laudantium.";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+  }
+  
+  .card .card-2:hover, .card .card-2:focus, .card .card-2:active {
+    color: white;
+  }
+  
+  .card .card-2:hover .item, .card .card-2:focus .item, .card .card-2:active .item {
+    display: none;
+  }
+  
+  .card .card-2:hover:before, .card .card-2:focus:before, .card .card-2:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  
+  .card .card-3 {
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    background-image: url(../images/pic/restaurant-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: transparent;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .card .card-3:before {
+    content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti similique quam amet deleniti praesentium sapiente aperiam, aliquam maxime dolore obcaecati animi debitis laborum voluptatibus illo doloremque, quia, iste laudantium.";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem;
+  }
+  
+  .card .card-3:hover, .card .card-3:focus, .card .card-3:active {
+    color: white;
+  }
+  
+  .card .card-3:hover .item, .card .card-3:focus .item, .card .card-3:active .item {
+    display: none;
+  }
+  
+  .card .card-3:hover:before, .card .card-3:focus:before, .card .card-3:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  

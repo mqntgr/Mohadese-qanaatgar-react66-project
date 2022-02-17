@@ -1,0 +1,104 @@
+
+.textcontainer {
+    position: relative;
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.textcontainer{ .textGroup{
+    text-align: center;
+
+
+.backgroundtext {
+    // font-family: Playfair Display,sans-serif;
+    text-transform: uppercase;
+    font-size: 140px;
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1 !important;
+    pointer-events: none;
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    -ms-pointer-events: none;
+    -o-pointer-events: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.07;
+} .subtitle  {
+    // position: absolute;
+    font-weight: 300;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    // margin-bottom: 3px;
+    text-align: center; 
+     font-size: 10rem;
+color: #dad8d8;
+margin-bottom: 0;
+top: -250%!important;
+padding-bottom: 0;
+
+}
+.twotext{
+    text-align: center;
+    position: absolute;
+  
+    left: 10%;
+    right: 10%; 
+     top: -170px;
+  }
+//   #xenia{
+//     text-align: center;
+//     position:absolute;
+//     top:15%;
+//     left: 10%;
+//     right: 10%;
+// }
+  
+  .svgdivider {
+   
+    
+    text-align: center;
+    // position: absolute;
+    left: 10%;
+    right: 10%; 
+     margin-top: 40px;
+  }
+}
+ 
+}
+
+.containerr{
+    color:gray;
+    font-weight:lighter;
+    // margin-bottom: 3rem;
+  
+
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.intro p{
+    color: gray;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+}
+
+.intro img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.intro  .first{
+    margin-bottom: 0px;
+}
+.intro  .second{
+    font-size: xx-small;
+}

@@ -1,0 +1,43 @@
+@import 'reset';
+@import 'variables';
+@import  'mixin';
+@import 'styleslide1';
+@import 'header';
+@import 'Box';
+@import'textGroup';
+@import 'card';
+@import 'textGroupdownCards';
+@import'styleslider2';
+@import 'Grouptext3';
+@import 'styleslider3';
+@import 'footer';
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  @-ms-viewport {
+    width: device-width;
+  }
+  
+  html {
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    font-family: "Segoe UI";
+    font-size: 1rem;
+    font-weight: regular;
+    line-height: 1.5;
+    margin: 0;
+    color: #323232;
+    background-color: #f4f4f4;
+  }
